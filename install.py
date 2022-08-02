@@ -14,3 +14,8 @@ import trt_pose.coco
 import trt_pose.models
 import torch
 import torch2trt
+
+MODELS_PATH = Path(".") / "ManipulacaoDeVeiculosTerrestre" / "models"
+
+def install_pck():
+    
